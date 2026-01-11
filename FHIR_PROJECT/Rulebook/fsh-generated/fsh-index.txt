@@ -1,0 +1,3 @@
+Output File                               Name             Type     FSH File                Lines
+StructureDefinition-mta-observation.json  MTA_Observation  Profile  ObservationProfile.fsh  1 - 8
+StructureDefinition-mta-patient.json      MTA_Patient      Profile  PatientProfile.fsh      1 - 8

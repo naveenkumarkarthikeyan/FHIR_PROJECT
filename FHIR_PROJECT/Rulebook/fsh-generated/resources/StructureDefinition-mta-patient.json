@@ -1,0 +1,27 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mta-patient",
+  "url": "http://example.org/mta/StructureDefinition/mta-patient",
+  "name": "MTA_Patient",
+  "title": "MTA Patient Profile",
+  "status": "draft",
+  "description": "Patient profile for MTA project",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Patient",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Patient",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Patient.gender",
+        "path": "Patient.gender",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/ValueSet/administrative-gender"
+        }
+      }
+    ]
+  }
+}

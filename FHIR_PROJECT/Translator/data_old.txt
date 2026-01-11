@@ -1,0 +1,3 @@
+patient_id,name,gender,age,observation_code,observation_value
+P001,Ravi Kumar,M,45,heart-rate,78
+P002,Sita Devi,F,38,blood-pressure,120/80

@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  hapi-fhir:
+    image: hapiproject/hapi:latest
+    container_name: hapi_fhir_mta
+    ports:
+      - "8080:8080"

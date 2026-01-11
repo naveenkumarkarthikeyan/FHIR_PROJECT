@@ -1,0 +1,36 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mta-observation",
+  "url": "http://example.org/mta/StructureDefinition/mta-observation",
+  "name": "MTA_Observation",
+  "title": "MTA Observation Profile",
+  "status": "draft",
+  "description": "Observation profile linked to MTA Patient",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.status",
+        "path": "Observation.status",
+        "patternCode": "final"
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://example.org/mta/StructureDefinition/mta-patient"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

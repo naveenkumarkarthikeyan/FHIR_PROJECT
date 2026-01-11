@@ -1,0 +1,48 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "mta.fhir.project",
+  "url": "http://example.org/mta/ImplementationGuide/mta.fhir.project",
+  "version": "0.1.0",
+  "name": "MTAFHIRProject",
+  "status": "draft",
+  "packageId": "mta.fhir.project",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/mta-observation"
+        },
+        "name": "MTA Observation Profile",
+        "description": "Observation profile linked to MTA Patient",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mta-patient"
+        },
+        "name": "MTA Patient Profile",
+        "description": "Patient profile for MTA project",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": []
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2026"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}

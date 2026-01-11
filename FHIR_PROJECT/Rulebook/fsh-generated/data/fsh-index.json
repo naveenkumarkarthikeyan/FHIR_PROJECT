@@ -1,0 +1,18 @@
+[
+  {
+    "outputFile": "StructureDefinition-mta-observation.json",
+    "fshName": "MTA_Observation",
+    "fshType": "Profile",
+    "fshFile": "ObservationProfile.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-mta-patient.json",
+    "fshName": "MTA_Patient",
+    "fshType": "Profile",
+    "fshFile": "PatientProfile.fsh",
+    "startLine": 1,
+    "endLine": 8
+  }
+]

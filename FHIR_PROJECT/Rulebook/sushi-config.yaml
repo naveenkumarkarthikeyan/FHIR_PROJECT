@@ -1,0 +1,8 @@
+id: mta.fhir.project
+canonical: http://example.org/mta
+name: MTAFHIRProject
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2026
+releaseLabel: ci-build
